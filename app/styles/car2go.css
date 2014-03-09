@@ -31,29 +31,6 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
-#map-container {
-    position:relative;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    margin: 0;
-    padding: 0;
-    height: 400px;
-    width: 100%;
-}
-
-path {
-  fill: #ccc;
-  stroke: #fff;
-  stroke-width: .5px;
-}
-
-path:hover {
-  fill: red;
-}
-
-
 /* Customize container */
 @media (min-width: 768px) {
   .container {
@@ -100,5 +77,3 @@ path:hover {
     border-bottom: 0;
   }
 }
-
-
